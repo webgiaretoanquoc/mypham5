@@ -1,0 +1,205 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+.header-bottom {
+	border-top: 1px solid #f5f5f5;
+	border-bottom: 2px solid #fcd005;}
+#header.header #mega_menu {
+	display: none;
+}#mega-menu-title{font-weight:400; font-size:15px; color: black}#mega-menu-wrap{background:white}
+#mega-menu-wrap{background:#f05a5e}
+#mega-menu-title{padding:0; color: white}
+.header:not(.transparent) .header-bottom-nav.nav > li > a{font-size:15px}
+.form-flat input:not([type="submit"]){    height: 40px;    border-color: rgb(209, 193, 60);}.header-main .nav > li > a {
+	line-height: 16px;
+	font-size: 15px;
+}.button.icon.circle>span {
+	margin: 0 8px;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 15px;
+	color: black;
+}
+.nav .hotline-nav a{font-size:18px !important}
+.nav-slider{    margin: 0 auto;
+	position: absolute;
+	margin-top: -418px !important;
+	max-width: 215px;
+	left: 10%;}
+.nav-slider ul li{ margin-left:0}.nav-slider ul li+li{border-top:0}
+.nav-slider ul li a{display:block; padding-top:7px; padding-bottom:7px;padding-left:15px; font-size: 15px}
+.nav-slider .nav-slider-web{background: rgba(0,0,0,0.4)}
+.nav-slider ul li a:hover{background: white; color: black !important}
+ul.menu>li.has-child:hover >.sub-menu{border-left:0; display: block !important;
+	position: absolute;
+	left: 98%; top:0;
+	background: white;
+	z-index: 999; height:100% !important;
+
+	padding-left: 0px; 
+}
+ul.menu>li.has-child:hover >.sub-menu li {margin-left:0}
+ul.menu>li.has-child:hover >.sub-menu li a:hover{padding-left:15px; background: gray; color: white !important}
+#mega_menu > li.has-child > ul.sub-menu li a{padding-left:15px; padding-top:5px; padding-bottom:5px}#mega_menu ul.sub-menu > li:hover > a{background: gray; color: white}
+#mega_menu > li > a{    position: relative;
+	font-weight: 500;
+	color: black;
+	font-size: 15px;}
+#mega_menu > li.has-child > ul.sub-menu{display:block; position:relative; left: 0; top:0; min-height:auto; border-left:0; border:0; box-shadow:0px 0px 0px gray; margin-top:0 !important; margin-left:0px} 
+#mega_menu > li{border-top:0; width:25%; float: left}
+#header.header #mega_menu.active{width:1050px;    min-width: 600px;
+	margin-top: 10px;
+	padding: 15px;
+	border: 2px solid black;}#mega_menu > li > a{padding: 7px 7px 7px 15px}
+ul.menu>li.has-child:hover >.sub-menu li a{padding-left:15px;     display: block; 
+	color: black;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 15px;}
+
+.nav-slider .toggle{display:none}
+.flickity-page-dots{    right: 2%; left:auto}
+.flickity-prev-next-button.next{right: 9%;
+	bottom: -46%;}
+.flickity-prev-next-button.previous{    right: 12.5%;
+	bottom: -46%; left:auto}
+.slider-nav-circle .flickity-prev-next-button svg{    border: 0px;
+	background: rgba(0,0,0,0.6);
+	color: white}
+.sp-noi-bat .product-small .category{font-size:15px; letter-spacing:0; text-transform:uppercase; color: black}
+.sp-noi-bat .product-small .product-title a{    font-size: 16px;
+	color: black; margin-bottom:10px}
+.product-small .price-wrapper ins span.amount{white-space: nowrap;
+	color: #ff6900;
+	font-weight: normal;
+	font-size: 20px;
+}
+.product-small .price-wrapper del span.amount{font-size:15px}
+.badge-inner {background-color: #d26e4b;
+	border-radius: 100%;
+	background: white;
+	border: 2px solid #f05a5e;
+	color: #f05a5e;
+	font-weight: normal;}
+.badge{width: 45px; height:45px}
+.badge-container{margin:10px}.product-small{border: 1px solid #e4e4e4;}
+.add-to-cart-button a{    text-transform: none;
+	font-weight: normal;
+	font-size: 13px !important;
+	letter-spacing: 0;
+	border-radius: 99px;
+	background: #f05a5e;
+	line-height: 29px;}
+.sp-noi-bat .flickity-page-dots{top:-30px}
+.sp-noi-bat .flickity-prev-next-button{top:-480px ; }
+.sp-noi-bat .flickity-prev-next-button.previous{}
+.danh-muc-sp .row-cat{    background: white;
+	padding-top: 30px;}
+.danh-muc-sp .box-push .box-text{background: white; margin: -8% auto 0;}
+.danh-muc-sp .box-push .box-text .header-title{letter-spacing: 0;
+	font-size: 15px;
+	color: black;
+	padding-bottom: 5px;}
+.danh-muc-sp .flickity-prev-next-button{top:-150px}
+.danh-muc-sp .row-cat .col{padding-bottom:0}.sp-noi-bat .col{padding-bottom:0}.section-title span{text-transform:none}
+.sp-de-xuat .product-small{border:0}
+.sp-de-xuat .product .col-inner .box{
+	border: 1px solid #e4e4e4;}
+.sp-de-xuat .flickity-prev-next-button.next{right:-1%; bottom:10%}
+.flickity-prev-next-button.previous{left:-1%; }
+.sp-de-xuat .col{padding-bottom:0}
+.sp-de-xuat .cham-soc-toc .product .col-inner .box .box-text{background: white}
+.thuong-hieu .tabbed-content .nav > li{margin-right:0}
+
+.thuong-hieu .tabbed-content .nav > li > a{font-size:15px; padding:10px 30px;}
+.thuong-hieu .tabbed-content .nav > li  .active>a{    border: 2px solid #bebf49;
+	color: #bebf49;}
+.thuong-hieu .section-title-container{margin-bottom:10px}
+.footer-section img.size-full.alignnone{margin-bottom:15px}
+.footer-section .button{font-weight:normal}.footer-section .col{padding-bottom:0}.sp-de-xuat .flickity-prev-next-button.previous{    bottom: 10%;}
+.footer-bottom .col{padding-bottom:0}
+.footer-bottom .cot12 p{margin-bottom:0}
+.footer-secondary{padding-top:0}.absolute-footer{padding-bottom:10px}
+.breadcrumbs a{text-transform:none}
+.product-main .product-title{font-weight:normal;color: black}
+.product-main .price-wrapper ins span.amount{color: red; font-weight:normal}
+.product-main .price-wrapper del span.amount{color: gray; font-size: 15px}
+.product-main .product-short-description{font-size:14px}.product-main{padding:20px 0}
+.contact-product .col{padding-bottom:0}
+.contact-product .button{margin-bottom:5px; font-weight:normal}
+.detailcall-1{padding: 3px 20px; background: #f05a5e; box-shadow: 0px 0px 0px gray}.detailcall-1 span{font-size:14px}.detailcall-1 h3{margin-bottom:0}.quantity+.button {
+	margin-right: 0;
+	font-size: 1em;
+	text-transform: none;
+	font-weight: normal;
+	background: #1db6b7;
+	border-radius: 4px;
+}.product-main .form-flat input:not([type="submit"]) {
+	height: 39px;
+	border-color: rgb(29, 182, 183);
+}button.btn.btn-default{background:#f05a5e; border: 0px solid;     padding: 5px 20px;}.product_meta{font-size:14px}
+.product-footer p{font-size:14px; color: #4a4a4a}
+.product-footer .product-tabs {    background: #fff6f6;}
+.product-footer .product-tabs li.active a{border: 2px solid #d3c345; color: #d3c345}
+.product-footer .product-tabs li a{padding:7px 15px; font-weight:normal; font-size:16px; color: black; text-transform:none; letter-spacing:0}
+.nav-line-bottom>li>a:before, .nav-line-grow>li>a:before, .nav-line>li>a:before{height:0}
+.related-products-wrapper h3{font-size:20px; color: black; letter-spacing:0; text-transform:none}.ProductDescription h2{font-weight:normal; color: black}.related-products-wrapper .product-small .col-inner .box{border:1px solid #e0e0e0}
+
+.related-products-wrapper .product-small, .category-page-row .product-small{border: 0}
+.product-main .khuyen-mai{    background: #fff3f3;
+	border-radius: 4px;
+	border: 1px dashed #f05a5e;
+	padding: 10px;
+	margin-bottom: 20px;}.product-main .khuyen-mai h4{color: red}
+.product-main .khuyen-mai li{list-style:none; color: #3a3a3a; font-size:14px}
+.woocommerce-breadcrumb{font-weight:normal; text-transform:none}
+.category-filtering strong{font-weight:normal}
+.shop-container .woof_sid_auto_shortcode.woof{display:none}
+.shop-container .off-canvas .sidebar-inner{padding:8px}.woof label{font-weight:normal}
+.off-canvas-left .mfp-content{width:280px}.gioi-thieu .cot3{background: #f7f7f7; padding-top:10px}
+.gioi-thieu .cot3 .button{font-weight:normal}
+.return-to-shop .button{font-weight:normal; text-transform:none; font-size:14px}.slider-section .flickity-prev-next-button{display:none}
+.blog-archive .post-sidebar, .blog-single .post-sidebar{padding-right:15px}
+.blog-archive .large-9, .blog-single .large-9{padding-left:15px}.flatsome_recent_posts ul li a{font-size:14px}
+.is-divider{height:1px; max-width:100%}
+.widget-title span{color: black; font-weight:normal; font-size:18px; text-transform:none}
+.badge.post-date{top: 3%; left:3%}.blog-archive .post-item .box-text .post-title{color: black; font-size:15px}
+.blog-single .entry-image{display:none}.entry-content{padding-top:0}.entry-content p{font-size: 15px}
+footer.entry-meta{font-size:15px}
+.entry-content h2{font-size:16px}.bai-viet-tin-tuc .post-item .box{background: white; padding:8px}.bai-viet-tin-tuc .col{padding-bottom:0}
+.bai-viet-tin-tuc .flickity-prev-next-button.next{right: 1%}
+.bai-viet-tin-tuc .flickity-prev-next-button.previous, .bai-viet-tin-tuc .flickity-prev-next-button.next { right: -10px;
+	bottom: 15%;}
+.widget_shopping_cart .button{font-weight: normal;
+	text-transform: none;}
+ul.product_list_widget li a:not(.remove){font-size:14px}
+.widget_shopping_cart strong{font-weight:normal; font-size:14px}
+.widget_shopping_cart .woocommerce-Price-amount{font-weight:normal; color: red}
+.button{font-weight:normal; text-transform:none}
+.woocommerce-cart-form .product-price span, .woocommerce-cart-form .product-subtotal span{font-weight:normal}
+form.checkout h3{font-weight:normal; text-transform:none; letter-spacing:0}
+.widget_shopping_cart_content p{font-size:14px; color: black}
+.nav-dropdown-default{padding:5px}
+.nav-dropdown>li>a{font-size:15px}
+.gioi-thieu .cot3 .post-item .post-title{font-size:14px; font-weight:normal}
+.gioi-thieu .cot3 .box-blog-post .is-divider{display:none}
+.gioi-thieu .cot3 .post-item .box-image, .gioi-thieu .cot3 .post-item .box-text{padding-bottom:0}.gioi-thieu .cot3 .post-item{padding-bottom:8px}
+a.added_to_cart{margin-top:1em !important; color: white; margin-bottom:0 !important; line-height:12px !important}
+.form-flat input:not([type="submit"]){border-radius:4px}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+	.nav-slider{display:none}
+	.sp-noi-bat .col{width:50%; padding-bottom:15px}
+	.sp-noi-bat .product-small .product-title a{font-size:15px}
+}
